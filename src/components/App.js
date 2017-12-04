@@ -1,5 +1,7 @@
 import React from 'react'
 import Routes from './Routes'
+import Header from './Header'
+import Footer from './Footer'
 
 /**
  * Show filterable project's dependency infomation.
@@ -7,7 +9,11 @@ import Routes from './Routes'
  */
 function App() {
   return (
-    <Routes/>
+    <div>
+      <Header />
+      <Routes/>
+      <Footer />
+    </div>
   )
 }
 

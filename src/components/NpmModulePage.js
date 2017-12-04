@@ -83,7 +83,7 @@ class NpmModulePage extends Component {
                   defaultDependencyType={defaultDependencyType}
               />
             </div>
-          : 'Npm module not found'
+          : null
         }
       </Container>
     )
