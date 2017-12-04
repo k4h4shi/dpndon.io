@@ -1,0 +1,11 @@
+{
+  "title": "dpndon",
+  "defaultDependencyType": "All",
+  "dependencyTypes": [
+    "All",
+    "Production",
+    "Dev",
+    "Optional",
+    "Bundle"
+  ]
+}
